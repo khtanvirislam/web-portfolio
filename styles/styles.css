@@ -1,0 +1,12 @@
+/* nav related styles */
+.mery-color{
+    color: orangered;
+} 
+
+nav{
+    display: flex;
+}
+
+nav li a{
+    
+}
