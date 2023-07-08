@@ -50,12 +50,36 @@ nav li a{
     font-size: 20px;
     font-weight: 700;
 }
-.bg-picture{
+
+/* header related style */
+
+header{
     background-image: url(/images/header_bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
     width: 1600px;
     height: 837px;
     flex-shrink: 0;
+}
 
+
+.header-background{
+    background-color:#FFF8F3;
+    margin: 0 230px;
+    padding: 230px;
+
+}
+
+.banner-greetings{
+    color: #474747;
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 600;
+
+}
+
+.banner-name{
+    font-size: 85px;
+    font-weight: 700;
+    color:#181818;
 }
