@@ -1,3 +1,15 @@
+/* common shared style */
+*{
+    font-family: sans-serif, 'Open Sans';
+}
+
+.text-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+
 /* nav related styles */
 .mery-color{
     color: orangered;
@@ -5,8 +17,45 @@
 
 nav{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 400;
+    list-style: none;
+}
 nav li a{
-    
+    text-decoration: none;
+    color: black;
+}
+
+.nav-text{
+    margin-right: 50px;
+}
+
+.btn-primary{
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 5px;
+    background: #FD6E0A;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+}
+.bg-picture{
+    background-image: url(/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    width: 1600px;
+    height: 837px;
+    flex-shrink: 0;
+
 }
